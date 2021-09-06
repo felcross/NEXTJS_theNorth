@@ -1,0 +1,19 @@
+.date{
+  display:flex;
+  flex-direction: column;
+  border-bottom: 2px solid red;
+
+}
+.date label{
+    color:red;
+    font-weight: bold;
+    margin: 3px;
+    padding-left: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.date img{
+  width:100vw;
+  height: 50vh;
+  border: 1px solid red;
+}
