@@ -1,8 +1,8 @@
 import styles from '../styles/Home.module.css'
-import House from '../components/House'
+import House from '../components/HouseC'
 
 export default function Home() {
   return (
-   <House casa='Whitewolf' reino='Northumbria' />    
+    <div>HOME</div>
   )
 }
