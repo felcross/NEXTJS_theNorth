@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import pic from '../images/group.webp'
+import pic from '../images/rpgroup.png'
 import styles from '../styles/HomeC.module.css'
 
 

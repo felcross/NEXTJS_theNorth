@@ -25,6 +25,6 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  background-image: linear-gradient(to right, rgba(39, 38, 38, 0), rgb(160, 95, 22));
+  background-image: linear-gradient(to right, rgba(39, 38, 38, 0), rgba(68, 62, 155, 0.932));
 
 }
