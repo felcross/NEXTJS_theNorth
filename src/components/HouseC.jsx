@@ -6,7 +6,7 @@ export default function HouseC(props) {
     return (
         <div className={styles.date}>
            <div>
-                <Image src={pic} width={'150%'} height={'80vh'}  quality={90} alt='Brasão'/>
+                <Image src={props.pic} width={'150%'} height={'80vh'}  quality={90} alt='Brasão'/>
                 </div>      
             <div className={styles.info}>
 

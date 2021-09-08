@@ -1,11 +1,19 @@
 import House from '../components/HouseC'
 import Layout from '../components/Layout'
+import Brave from '../images/Brave.png'
+import Engenhoff from '../images/engenhoff.png'
+import Ashes from '../images/ashes.png'
+import Griffon from '../images/griffon.png'
+import VonB from '../images/vonbrasken.png'
 
 export default function house() {
   return (
           <Layout>
-            <House casa='Whitewolf' reino='Northumbria' />
-            <House casa='Brave' reino='Northumbria'  img='https://scontent-gig2-1.xx.fbcdn.net/v/t1.6435-9/119420031_1667289383437979_5933418469736504383_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=a83260&_nc_ohc=SDbCc3K58vUAX_M5Qq9&_nc_ht=scontent-gig2-1.xx&oh=a46d6830e2afcbeb2c11c6955c81c896&oe=615A78C9' />
+            <House pic={Brave}  casa='Brave' reino='Northumbria' />
+            <House pic={Engenhoff} casa='Engenhoff' reino='Northumbria' />
+            <House pic={Ashes} casa='Ashes' reino='Northumbria' />
+            <House pic={Griffon} casa='Griffon' reino='Northumbria' />
+            <House pic={VonB} casa='Von Brasken' reino='Northumbria' />
           </Layout>
             
   )
